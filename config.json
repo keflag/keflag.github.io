@@ -7,5 +7,6 @@
     "UTC":8,
     "showPostSource":1,
     "rssSplit":"sentence",
-    "onePageListNum":10
+    "onePageListNum":10,
+    "urlMode":"issue"
 }
