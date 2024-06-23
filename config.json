@@ -1,6 +1,11 @@
 {
-    "title":"Blog Title",
-    "subTitle":"Blog description",
-    "avatarUrl":"https://github.githubassets.com/favicons/favicon.svg",
-    "GMEEK_VERSION":"last"
+    "title":"Keflag的个人博客",
+    "subTitle":"这是Keflag的个人博客",
+    "avatarUrl":"https://assets.bgithub.xyz/favicons/favicon.svg",
+    "GMEEK_VERSION":"last",
+    "i18n":"CN",
+    "UTC":8,
+    "showPostSource":1,
+    "rssSplit":"sentence",
+    "onePageListNum":10
 }
