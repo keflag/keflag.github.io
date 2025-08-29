@@ -38,23 +38,9 @@ body{box-sizing: border-box;min-width: 384px;max-width: 1376px;margin: 20px auto
 .SideNav-icon{margin-right: 16px}
 .SideNav-item .Label{color: #fff;margin-left:4px;}
 .d-flex{min-width:0;}
-
-/* 修复标题显示的关键修改 */
-.listTitle{
-  overflow: visible; /* 允许内容完整显示 */
-  white-space: normal; /* 允许自动换行 */
-  word-wrap: break-word; /* 长单词自动拆分 */
-  max-width: calc(100% - 40px); /* 预留图标空间 */
-  line-height: 1.4; /* 增加行高提升可读性 */
-}
-
+.listTitle{overflow:hidden;white-space:nowrap;text-overflow: ellipsis;max-width: 100%;}
 .listLabels{white-space:nowrap;display:flex;}
 .listLabels object{max-height:16px;max-width:24px;}
-
-/* 调整垂直对齐方式 */
-.SideNav-item .d-flex {
-  align-items: flex-start;
-}
 
 @media (max-width: 600px) {
     body {padding: 8px;}
@@ -62,9 +48,6 @@ body{box-sizing: border-box;min-width: 384px;max-width: 1376px;margin: 20px auto
     .blogTitle{display:none;}
     #buttonRSS{display:none;}
     .LabelTime{display:none;}
-    /* 移动端额外调整 */
-    .SideNav{min-width: 100%;}
-    .listTitle{max-width: calc(100% - 30px);}
 }
 </style>
 
